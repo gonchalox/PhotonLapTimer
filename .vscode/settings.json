@@ -1,0 +1,19 @@
+{
+    "extensions.ignoreRecommendations": true,
+    "C_Cpp.default.configurationProvider": "particle.particle-vscode-core",
+    "cortex-debug.openocdPath": "${command:particle.getDebuggerOpenocdPath}",
+    "files.associations": {
+        "*.ino": "cpp",
+        "array": "cpp",
+        "deque": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "vector": "cpp",
+        "initializer_list": "cpp",
+        "buf_writer.h": "c",
+        "msp_protocol.h": "c"
+    },
+    "particle.firmwareVersion": "1.5.0-rc.1",
+    "particle.targetPlatform": "photon",
+    "particle.targetDevice": "gabriel"
+}
